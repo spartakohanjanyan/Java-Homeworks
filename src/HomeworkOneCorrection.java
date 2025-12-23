@@ -1,4 +1,4 @@
-public class Homework {
+public class HomeworkOneCorrection {
     public static void main(String[] args) {
 
         int a = 4;
@@ -15,7 +15,7 @@ public class Homework {
         System.out.println("The average value is " + average);
 
         // Տասնորդական հատվածի առանձնացում։
-        double decimalpart = average - (int) average;
+        double decimalpart = average % 1;
 
         System.out.println("Decimal part of the number is " + decimalpart);
 
@@ -27,11 +27,6 @@ public class Homework {
 
         System.out.println("The integer value is " + k);
 
-        // Նույնը հատուկ ֆունկցիայի միջոցով։
-        char ch1 = '7';
-        int g = Character.getNumericValue(ch1);
-
-        System.out.println("The integer value is " + g);
 
         //3․ Երկու փոփոխականնների գումարի խորանարդի ստացումը։
         int m = 4;
@@ -42,13 +37,10 @@ public class Homework {
 
         System.out.println("The cub is " + result);
 
-        // Նույնը հատուկ ֆունկցիայի միջոցով։
-        double result1 =  Math.pow((m + n), 3);
-
-        System.out.println("The cub is " + (int)result1);
 
 
 
 
     }
 }
+
