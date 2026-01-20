@@ -2,9 +2,14 @@ package homework11826;
 
 public class PalindromeNumber {
     public static void main(String[] args){
-        int number = 413934;
+        int number = 123321;
         int originalNumber = number;
         int reversedNumberHalf = 0;
+
+        if (number < 0) {
+            System.out.println(number + " Isn't palindrome");
+            System.exit(0);
+        }
 
         while (originalNumber > reversedNumberHalf) {
             int lastDigit = originalNumber % 10;
