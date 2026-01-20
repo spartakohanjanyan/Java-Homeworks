@@ -1,6 +1,6 @@
 package homework11826;
 
-public class task4 {
+public class PalindromeNumber {
     public static void main(String[] args){
         int number = 43934;
         int originalNumber = number;

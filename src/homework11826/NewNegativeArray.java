@@ -1,6 +1,6 @@
 package homework11826;
 
-public class task2 {
+public class NewNegativeArray {
     public static void main(String[] args){
         int[] array1 = {10, -9, 3, -118, 4, -12, -6};
 

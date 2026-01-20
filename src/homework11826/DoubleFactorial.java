@@ -1,7 +1,7 @@
 package homework11826;
 import java.util.Scanner;
 
-public class task7 {
+public class DoubleFactorial {
     public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);

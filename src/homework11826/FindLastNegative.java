@@ -1,6 +1,6 @@
 package homework11826;
 
-public class task3 {
+public class FindLastNegative {
     public static void main(String[] args){
         int[] array = {3 ,-4, 243 ,6, 23, -2, 3};
         int index = -1;

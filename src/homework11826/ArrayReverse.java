@@ -1,6 +1,6 @@
 package homework11826;
 
-public class task8 {
+public class ArrayReverse {
     public static void main(String[] args){
 
         int[] array = {1, 2, 3, 4, 5};

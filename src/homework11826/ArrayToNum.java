@@ -1,6 +1,6 @@
 package homework11826;
 
-public class task5 {
+public class ArrayToNum {
     public static void main(String[] args){
         int[] array = {3, 4, 7, 9};
 

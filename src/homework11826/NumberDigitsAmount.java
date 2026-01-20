@@ -1,6 +1,6 @@
 package homework11826;
 
-public class task9 {
+public class NumberDigitsAmount {
     public static void main(String[] args){
         int number = 439;
         int temp = number;

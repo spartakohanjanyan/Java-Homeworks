@@ -1,6 +1,6 @@
 package homework11826;
 
-public class task6 {
+public class BankDeposit {
     public static void main(String[] args){
 
         double deposit = 30000;

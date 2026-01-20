@@ -1,6 +1,6 @@
 package homework11826;
 
-public class task1 {
+public class FindSecondLargest {
     public static void main(String[] args) {
         int [] array = {3 ,6 ,4 ,8 ,9 ,14 ,23 ,5};
 
