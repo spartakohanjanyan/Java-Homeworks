@@ -5,9 +5,10 @@ public class FindLastNegative {
         int[] array = {3 ,-4, 243 ,6, 23, -2, 3};
         int index = -1;
 
-        for (int i = 0; i < array.length; i++) {
+        for (int i = array.length - 1; i >= 0; i--) {
             if (array[i] < 0) {
                 index = i;
+                break;
             }
         }
 

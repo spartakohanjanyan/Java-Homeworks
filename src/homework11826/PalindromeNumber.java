@@ -2,20 +2,20 @@ package homework11826;
 
 public class PalindromeNumber {
     public static void main(String[] args){
-        int number = 43934;
+        int number = 413934;
         int originalNumber = number;
-        int reversedNumber = 0;
+        int reversedNumberHalf = 0;
 
-        while (number > 0) {
-            int lastDigit = number % 10;
-            reversedNumber = (reversedNumber * 10) + lastDigit;
-            number = number / 10;
+        while (originalNumber > reversedNumberHalf) {
+            int lastDigit = originalNumber % 10;
+            reversedNumberHalf = (reversedNumberHalf * 10) + lastDigit;
+            originalNumber = originalNumber / 10;
         }
 
-        if (originalNumber == reversedNumber) {
-            System.out.println(originalNumber + " Is palindrome ։");
+        if (originalNumber == reversedNumberHalf || originalNumber == reversedNumberHalf / 10) {
+            System.out.println(number + " Is palindrome ։");
         } else {
-            System.out.println(originalNumber + " Isn't palindrome։");
+            System.out.println(number + " Isn't palindrome։");
         }
 
     }
