@@ -21,7 +21,7 @@ public class House {
         this.address = address;
     }
 
-    public House(homework3326.House other) {
+    public House(House other) {
         this.roomsCount = other.roomsCount;
         this.hasEntrance = other.hasEntrance;
         this.bathroomsCount = other.bathroomsCount;
