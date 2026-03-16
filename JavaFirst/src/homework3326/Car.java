@@ -26,7 +26,7 @@ public class Car {
             return;
         }
 
-        int generatedKm = random.nextInt(500) ;
+        int generatedKm = random.nextInt(50000) ;
 
         currentEngineOilKm += generatedKm;
         currentGearboxOilKm += generatedKm;

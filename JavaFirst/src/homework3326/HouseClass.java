@@ -10,6 +10,8 @@ public class HouseClass {
         house2.setRoomsCount(5);
         house2.setLivingArea(140.0);
 
+        house1.setRoomsCount(4);
+        house2.getAddress();
         house1.printInfo();
         house2.printInfo();
     }
