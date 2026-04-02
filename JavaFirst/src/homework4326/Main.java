@@ -3,9 +3,9 @@ package homework4326;
 public class Main {
     public static void main(String[] args) {
 
-        String[] people = {"Ani Bdeyan", "Babken Harutyunyan", "Kamo Sahakyan"};
+        String[] members = {"Ani Bdeyan", "Babken Harutyunyan", "Kamo Sahakyan"};
 
-        DummyAppProMax app = new DummyAppProMax(people);
+        DummyAppProMax app = new DummyAppProMax(members);
 
         app.answerCall();
 
