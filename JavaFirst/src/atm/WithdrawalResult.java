@@ -1,0 +1,9 @@
+package atm;
+
+public enum WithdrawalResult {
+    APPROVED,
+    DENIED_ACCOUNT_BLOCKED,
+    DENIED_INVALID_AMOUNT,
+    DENIED_INSUFFICIENT_BALANCE,
+    DENIED_LIMIT_EXCEEDED
+}
